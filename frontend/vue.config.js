@@ -4,6 +4,7 @@ module.exports = {
     port: '5000',
     watchOptions: {
       poll: 1000
-    }
+    },
+    disableHostCheck: true
   }
 }
